@@ -13,6 +13,7 @@ class InteractiveRecord
     column_names = table_info.map do |row|
       row["name"]
     end
+<<<<<<< HEAD
     column_names.compact
   end
 
@@ -62,4 +63,13 @@ class InteractiveRecord
 
     DB[:conn].execute(sql)
   end
+=======
+  end
+
+  def
+  def initialize(attributes: {})
+
+  end
+
+>>>>>>> 30df04669dd43d23a76cf2b7627ab51e61c79004
 end
